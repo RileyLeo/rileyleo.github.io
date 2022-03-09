@@ -216,7 +216,7 @@ small, .small {
 
 mark, .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #fcf4e3;
 }
 
 sub,
@@ -11313,6 +11313,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .divider-custom .divider-custom-line {
   width: 100%;
   max-width: 7rem;
@@ -11336,6 +11337,10 @@ html {
 }
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff;
+}
+
+.white{
+  color: white;
 }
 
 .btn-xl {
@@ -11506,4 +11511,8 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.text-justify {
+  text-align: justify;
 }
