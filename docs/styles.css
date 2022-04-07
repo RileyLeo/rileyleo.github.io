@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(253, 202, 202);
+}
+
+.title {
+  text-align: center;
+  background: rgb(253, 187, 45);
+  background: linear-gradient(
+    90deg,
+    rgba(253, 187, 45, 1) 0%,
+    rgba(34, 193, 195, 1) 100%
+  );
+  color: white;
+  font-size: 35px;
+  border: 5px solid black;
+}
+
+.friends {
+  background-color: rgb(9, 253, 221);
+  overflow: hidden;
+  border: 1px solid black;
+  color: black;
+}
+
+.friends-content {
+  height: 440px;
+  width: 1000px;
+  background-color: thistle;
+  display: grid;
+  /* grid-gap: 50px; */
+  place-items: center;
+  margin: 50px;
+}
+
+.friends-image {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.picture {
+  float: left;
+  margin: 50px;
+  margin-left: 350px;
+  margin-right: 10px;
+  background: rgb(191, 192, 114);
+  border: 5px dotted rgb(255, 27, 1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.friends-properties {
+  text-align: justify;
+  padding: 50px;
+  padding-top: 0px;
+}
+
+.friends-name {
+  height: fit-content;
+  margin: 10px;
+  text-align: center;
+}
+
+.header{
+  margin: 8px;
+}
+
+.header-button1{
+  height: fit-content;
+  width: 150px;
+  background-color: #03edfd; 
+  border: none;
+  color: black;
+  border: ridge black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.header-button2{
+  height: fit-content;
+  width: 150px;
+  background-color: #fdcaca; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+}
